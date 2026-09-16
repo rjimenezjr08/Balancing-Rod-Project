@@ -155,7 +155,6 @@ Current mechanical design work includes:
 * Guide rail selection
 * Motor mount design
 * Rod pivot assembly
-* Belt tensioning
 
 The system is being designed in CAD before fabrication and assembly.
 
@@ -163,47 +162,30 @@ The system is being designed in CAD before fabrication and assembly.
 
 The project is currently under development.
 
-Completed or ongoing work includes:
+## Current Progress
 
-* Initial system concept
-* Timing belt drive selection
-* Timing pulley integration
-* Guide rail design
-* Carriage development
-* Belt clamp design
-* Initial equations of motion
-* IMU planning
-* Motor and encoder research
-* CAD assembly development
+The main mechanical structure of the self-balancing rod system has been designed.
 
-Upcoming work includes:
+Completed so far:
+- Aluminum linear guide rail integrated into the design
+- Timing belt and pulley drive system
+- NEMA 17 stepper motor selected and incorporated into the assembly
+- Drive and idler pulley geometry modeled
+- Moving carriage structure designed
+- Balancing rod modeled
+- Bearing-supported pivot added to allow the rod to rotate freely
+- Overall mechanical layout assembled in CAD
 
-* Finalizing the carriage
-* Finalizing the belt attachment
-* Designing the rod and pivot
-* Completing the mechanical assembly
-* Selecting the final motor and encoder
-* Mounting the IMU
-* Implementing sensor data acquisition
-* Developing the feedback controller
-* Testing the physical balancing system
+Currently in progress:
+- Designing and refining the motor mount
+- Finalizing mounting hardware and support geometry
+- Preparing the design for integration with electronics and control hardware
 
-## Future Improvements
-
-Potential future additions include:
-
-* Improved belt tensioning
-* Automatic calibration
-* State estimation
-* Kalman filtering
-* Improved encoder feedback
-* LQR control
-* Real-time data visualization
-* MATLAB/Simulink modeling
-* Data logging
-* Improved mechanical rigidity
-* Custom PCB
-* Aluminum structural components
+Next steps:
+- Mount the motor and finalize the belt tensioning system
+- Add a rotary angle sensor/encoder for rod position measurement
+- Integrate the microcontroller and motor driver
+- Begin implementing the balancing control system
 
 ## Engineering Areas Used
 
